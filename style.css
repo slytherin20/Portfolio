@@ -158,7 +158,6 @@ a{
 .skill-list-images{
     width:70px;
     height:70px;
-    border-radius: 50%;
 }
 
 /*Blogs styling*/
@@ -177,6 +176,8 @@ a{
 
 /*Project section */
 .projects-list{
+    width:75%;
+    margin:auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -188,11 +189,12 @@ a{
     align-items: center;
     width: 250px;
     height: 350px;
+    box-shadow: 3px 3px 3px 3px gainsboro;
+    margin-bottom: 20px;
 }
 .project-image{
     width: 150px;
     height:150px;
-    border-radius: 50%;
 }
 .project-btn-grp{
     width: 100%;
